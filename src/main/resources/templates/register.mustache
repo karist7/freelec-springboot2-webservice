@@ -1,0 +1,31 @@
+{{>layout/header}}
+
+<h1>회원가입</h1>
+
+<div class="col-md-12">
+    <div class="col-md-4">
+        <form>
+            <div class="form-group">
+                <label for="title">아이디</label>
+                <input type="text" class="form-control" id="title" placeholder="아이디를 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="author"> 비밀번호 </label>
+                <input type="text" class="form-control" id="author" placeholder="비밀번호를 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="content"> 이메일 </label>
+                <textarea class="form-control" id="content" placeholder="이메일을 입력하세요"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="content"> 학교명 </label>
+                <textarea class="form-control" id="content" placeholder="학교명을 입력하세요"></textarea>
+            </div>
+
+        </form>
+        <a href="/" role="button" class="btn btn-secondary">취소</a>
+        <button type="button" class="btn btn-primary" id="btn-save">등록</button>
+    </div>
+</div>
+
+{{>layout/footer}}
